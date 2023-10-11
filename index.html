@@ -1,0 +1,361 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>My CV</title>
+</head>
+<style>
+	body{
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+  
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    padding: 20px 0;
+    background-color: #5c559b;
+    display: flex;
+  }
+  /* 
+  p{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+  } */
+  
+  .text-content{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 24px;
+  }
+  
+  .img-container {
+    background-color: white;
+    padding: 4px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  
+  .title-container{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .title-container h1, .title-container h2{
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .title-container h2{
+    font-size: 18px;
+    
+    color: #fafafa;
+    margin-top: 10px;
+  }
+  
+  .img, .avatar{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  
+  .container{
+    padding: 20px;
+    background-color: #827f9c;
+    display: flex;
+  
+  }
+  
+  .sider, .content{
+     background-color: white;
+      padding: 20px 0;
+      width: 100%;
+  }
+  
+  .sider {
+    width: calc(40% - 20px);
+    margin-right: 20px;
+   
+  }
+  
+  .content {
+    flex-grow: 1;
+   
+  }
+  
+  .tag-fill{
+    background-color: #5c559b;
+    padding: 8px 20px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  
+  .tag-content {
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .tag-content ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tag-content ul li {
+    list-style-type: none;
+    padding: 8px 0
+  }
+  
+  .progress-container {
+    width: 80%;
+  }
+  
+  .progress-title{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .progress-wrap{
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .progress{
+    width: 50%;
+    height: 10px;
+    background-color: #5c559b;
+  }
+  
+  .tag{
+    font-size: 18px;
+    color: #212121;
+    /* padding: 10px 20px; */
+    border-left: 18px solid #5c559b;
+    margin-bottom: 20px;
+  }
+  
+  .tabbar-title{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .tabbar-title .text-content {
+    font-weight: 600;
+    color: #5c559b;
+  }
+  
+  .content ul {
+    padding: 0;
+  }
+  
+  .content ul li {
+    list-style-type: none;
+  }
+  
+  
+  .description-content h3{
+    padding: 0 20px;
+    margin-bottom: 8px;
+  }
+  
+  .description-content ul {
+    padding-left: 40px ;
+  }
+  
+  .description-content ul li{
+    text-align: justify;
+    list-style-type: none
+  }
+  
+  .description-content ul li ul li{
+    text-align: justify;
+    list-style-type: square;
+    margin-bottom: 16px;
+  }
+  @media screen and (max-width:767px) {
+    
+  }
+  @media screen and (min-width:768px) {
+    
+  }
+
+</style>
+
+<body>
+    
+		<header>
+			<div class="img-container">
+				<img src="./asset/img/img cv.jpg" alt="" class="img avatar">
+			</div>
+			<div class="title-container">
+				<h1>Trương Thị Thúy Nga</h1>
+				<h2>Sinh viên</h2>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="sider">
+				<div class="sider-content">
+					<h1 class="tag-fill">Contact</h1>
+					<div class="tag-content">
+						<ul>
+							<li><i class="fa-solid fa-suitcase"></i> Sinh viên trường Đại học Mỏ - Địa Chất </li>
+							<li><i class="fa-solid fa-location-dot"></i>  Bắc Từ Liêm - Hà Nội </li>
+							<li><i class="fa-solid fa-envelope"></i> thuynga201203@gmail.com</li>
+							<li><i class="fa-solid fa-phone"></i> 0943817396</li>
+		
+						</ul>
+					</div>
+				</div>
+				<div class="sider-content">
+					<h1 class="tag-fill">Skill</h1>
+					<div class="tag-content progress-container">
+						<p class="progress-title">Tiếng Anh</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 45%"></div>
+						</div>
+					</div>
+					<div class="tag-content progress-container">
+						<p class="progress-title">Tiếng Trung</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 45%"></div>
+						</div>
+					</div>
+                    <div class="tag-content progress-container">
+						<p class="progress-title">Tiếng Hàn </p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 60%"></div>
+						</div>
+					</div>
+                    <div class="tag-content progress-container">
+						<p class="progress-title">Kỹ năng làm việc nhóm</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 70%"></div>
+						</div>
+					</div>
+                    <div class="tag-content progress-container">
+						<p class="progress-title">Kỹ năng thuyết trình</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 75%"></div>
+						</div>
+					</div>
+                    <div class="tag-content progress-container">
+						<p class="progress-title">Kỹ năng giao tiếp</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 85%"></div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="sider-content">
+					<h1 class="tag-fill">Chứng chỉ</h1>
+					<div class="tag-content">
+						<p>
+							Một số chứng chỉ cơ bản
+						</p>
+						<ul class="text-content">
+							<li>- Chứng chỉ tin học văn phòng - Microsof </li>
+							
+						</ul>
+					</div>
+                   
+				</div>
+			</div>
+			<div class="content">
+				<div>
+					<h1 class="tag">Giới thiệu</h1>
+					<p class="text-content">
+						Là sinh viên năm 3 chuyên ngành Thương mại điện tử Đại học Mỏ - Địa Chất. Tôi đã trang bị cho bản 
+            thân những kiến thức chuyên ngành cơ bản để phục vụ cho công việc. 
+					</p>
+				</div>
+				<div class="description-content">
+					<h1 class="tag"></h1>
+					<ul>
+						<li>
+							<div class="tabbar-title">
+								<!-- <p class="text-date">25/05/2023 -17/09/2023</p> -->
+							</div>
+							
+						</li>
+					</ul>
+				</div>
+                <div class="description-content">
+					<h1 class="tag">Kinh nghiệm làm việc</h1>
+					<ul>
+						<li>
+							<div class="tabbar-title">
+								
+							</div>
+							<h3>Quản lý page</h3>
+							<p class="text-content">
+								Lên bài, lên ý tưởng cho các page
+							</p>
+							<ul>
+					
+								<li>
+									Admin tại AOF TROLL
+								</li>
+								
+								<li>
+									Từng làm admin tại AOF New
+								</li>
+							</ul>
+						</li>
+					</ul>
+                    <ul>
+						<li>
+							<div class="tabbar-title">
+								
+							</div>
+							<h3>Kinh nghiệm khác</h3>
+							<p class="text-content">
+								
+							</p>
+							<ul>
+								<li>
+									Làm sale trung tâm Tiếng Anh
+								</li>
+								<li>
+									Làm telesale bất động sản
+								</li>
+								
+							</ul>
+                            
+						</li>
+					</ul>
+                    <ul>
+						<li>
+							<div class="tabbar-title">
+								
+							</div>
+							
+				</div>
+			</div>
+		</div>
+
+</body></html>
